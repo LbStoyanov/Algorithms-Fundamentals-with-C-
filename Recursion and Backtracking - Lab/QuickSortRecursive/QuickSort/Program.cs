@@ -6,7 +6,7 @@
         {
             int[] arr = {9,2,4,6};
 
-            var result = SortArray(arr);
+            var result = SortArray(arr,0,arr.Length);
 
             Console.WriteLine(String.Join(", ",arr));
         }
